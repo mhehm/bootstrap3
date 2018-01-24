@@ -3705,8 +3705,8 @@ tbody.collapse.in {
 }
 .btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child,
 .btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child {
   border-top-right-radius: 0;
@@ -5839,7 +5839,7 @@ button.list-group-item-danger.active:focus {
   border-radius: 3px;
 }
 .close {
-  float: right;
+  float: left;
   font-size: 21px;
   font-weight: bold;
   line-height: 1;
@@ -6070,14 +6070,14 @@ button.close {
   top: 50%;
   right: 0;
   margin-top: -5px;
-  border-width: 5px 5px 5px 0;
-  border-right-color: #000;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #000;
 }
 .tooltip.left .tooltip-arrow {
   top: 50%;
   left: 0;
   margin-top: -5px;
-  border-width: 5px 0 5px 5px;
+  border-width: 5px 5px 5px 0;
   border-right-color: #000;
 }
 .tooltip.bottom .tooltip-arrow {
